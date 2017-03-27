@@ -4,7 +4,7 @@
 }
 
 .hero-head {
-  margin-bottom: 120px;
+  margin-bottom: 60px;
 }
 
 .hero-body {
@@ -12,12 +12,14 @@
 }
 
 .banner {
-  width: 100%;
+  /* Whitespace fix */
   position: absolute;
-  height: 128px;
+  left: -5px;
+  width: 105%;
+  height: 120px;
   background-image: url("/assets/images/hex_art.svg");
   background-size: contain;
-  background-position: center top;
+  background-position: top center;
   background-repeat: repeat-x;
 }
 
@@ -76,6 +78,7 @@ ul li img {
 
 .footer {
   background-color: #254567;
+  padding: 40px;
 }
 
 .footer, .footer strong, .footer a, .footer a:visited {
@@ -83,5 +86,5 @@ ul li img {
 }
 
 .footer a:hover, .footer a:visited:hover {
-  color: #eee;
+  color: #ccc;
 }
